@@ -1,0 +1,13 @@
+{
+  "name": "rspack-binding-optimize",
+  "version": "0.1.0",
+  "private": true,
+  "description": "用 sftrace 和独立 benchmark 迭代优化 Rspack 绑定",
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "bin": {"rspack-binding-perf": "skills/rspack-binding-optimize/scripts/cli.mjs"},
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:trace": "python3 -m unittest discover -s tests -p 'test_*.py'"
+  }
+}

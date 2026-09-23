@@ -1,0 +1,1 @@
+-r skills/rspack-binding-optimize/scripts/requirements.txt

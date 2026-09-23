@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rspack 绑定性能优化"
+  short_description: "用 sftrace 定位绑定开销，通过独立基准迭代优化并回归实际项目"
+  default_prompt: "使用 $rspack-binding-optimize 分析 Rspack 绑定热点，提取独立 bench case，验证收益并回退无法稳定复现改善的改动。"
+policy:
+  allow_implicit_invocation: true
